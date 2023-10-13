@@ -1,0 +1,191 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+/* Custom CSS for a black navigation bar */
+.black-navbar {
+  background-color: #000; /* Set the background color to black (#000) */
+  color: white; /* Set the text color to white */
+}
+.navi-brand{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+.navi-brand:hover{
+  color: red;
+  
+}
+.butn-index{
+  background-color: red;
+  text-decoration: none;
+  padding:1rem;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+.butn-index:hover{
+  background-color: white;
+  padding:1rem;
+  border: 2px solid red;
+  color: black;
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  color: white; /* Set the text color to white */
+  font-weight: bold; /* Make the text bold */
+}
+.navbar-nav .nav-link:hover {
+  color: red; /* Change the text color to red on hover */
+}
+
+
+a {
+  color: #00B7FF;
+}
+/*HEADER*/
+/* Apply these styles to your header */
+.masthead {
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  width: 100%; /* Set the width to 100% of the viewport width */
+  background-color: #fff; /* Add your desired background color */
+  color: #000; /* Add your desired text color */
+  padding: 50px 0; /* Add padding as needed */
+}
+
+/* Center align text within the header */
+.masthead .container {
+  text-align: center;
+}
+
+/* Style your text and buttons as needed */
+.masthead h1 {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+}
+
+.masthead .text-white-75 {
+  font-size: 1.25rem; /* Adjust the font size as needed */
+}
+
+.masthead .btn-primary {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+/* Adjust the "About" section */
+#about {
+  background-color: #fff; /* Set the background color as needed */
+  color: black; /* Set the text color as needed */
+  padding-top: 100px; /* Adjust this value to control the spacing between the header and section */
+  padding-bottom: 100px; /* Adjust this value to control the spacing between the section and footer */
+  height: 100vh; /* Set the section's height to 100% of the viewport height */
+  position: relative; /* Position the section relatively to control content placement */
+  text-align: center; /* Align the content in the center */
+}
+
+#about h2 {
+  margin-top: 0; /* Remove default margin for the h2 element */
+}
+.box-1{
+  margin-top: 2.5em;
+  border-radius: 3%;
+  padding-top: 5em;
+  font-weight: 300;
+  border:2px solid red;
+  height: 60vh;
+}
+
+/* Adjust other styles as needed */
+/* Services Section */
+#services {
+  background-color: #f8f9fa; /* Set the background color as needed */
+  padding: 80px 0; /* Adjust padding to control the spacing */
+}
+
+#services h2 {
+  font-size: 2.5rem; /* Set the font size as needed */
+  margin-top: 0; /* Remove default margin for the h2 element */
+}
+
+#services .divider {
+  width: 60px;
+  border-top: 3px solid #007bff; /* Set the divider color as needed */
+  margin: 30px auto; /* Adjust margin to control the spacing */
+}
+
+#services .col-lg-3 {
+  margin-bottom: 30px; /* Adjust margin to control the spacing between columns */
+}
+
+#services .h4 {
+  font-size: 1.5rem; /* Set the font size as needed */
+  margin-top: 20px; /* Adjust margin to control the spacing */
+}
+
+#services .text-muted {
+  font-size: 1rem; /* Set the font size as needed */
+}
+/*contact*/
+/* Contact Section */
+#contact {
+  background-color: red; /* Set the background color as needed */
+  padding: 80px 0; /* Adjust padding to control the spacing */
+
+  /* Center the text within the container */
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem; /* Set the font size as needed */
+  margin-top: 0; /* Remove default margin for the h2 element */
+}
+
+#contact .divider {
+  width: 60px;
+  border-top: 3px solid black; /* Set the divider color as needed */
+  margin: 30px auto; /* Adjust margin to control the spacing */
+}
+
+#contact .form-floating {
+  margin-bottom: 20px; /* Adjust margin to control the spacing between form inputs */
+}
+
+#contact .form-control {
+  border: 2px solid black; /* Set the input border color as needed */
+}
+
+#contact .btn-primary {
+  background-color: black; /* Set the button background color as needed */
+  border: none;
+}
+
+#contact .btn-primary:hover {
+  background-color: black; /* Set the hover color as needed */
+}
+
+#contact .text-muted {
+  font-size: 1rem; /* Set the font size as needed */
+}
+
+/* Style the contact information */
+#contact .bi-phone {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Style the submit success message */
+#submitSuccessMessage {
+  color: #28a745; /* Set the success message text color as needed */
+}
+
+/* Style the submit error message */
+#submitErrorMessage {
+  color: #dc3545; /* Set the error message text color as needed */
+}
+/* Footer */
+/* Apply these styles to the footer */
+
+
+
+
+
